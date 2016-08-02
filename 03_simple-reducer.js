@@ -4,7 +4,7 @@
 // 下面讲一下这些 reducer 函数是如何转换 state 的。
 
 // Reducer 与 Store 区别：
-// 你可能已经注意到，在简介章节中的 Flux 图表中，有 Store，但没有Reducer
+// 你可能已经注意到，在简介章节中的 Flux 图表中，有 Store，但没有
 // Redux 中的 Reducer。那么，Store 与 Reducer 到底有哪些区别呢？
 // 实际的区别比你想象的简单：Store 可以保存你的 data，而 Reducer 不能。
 // 因此在传统的 Flux 中，Store 本身可以保存 state，但在 Redux 中，每次调用 reducer
